@@ -10,6 +10,7 @@ envoy_package()
 
 envoy_cc_library(
     name = "registry",
+    srcs = ["registry.cc"],
     hdrs = ["registry.h"],
     deps = [
         "//source/common/common:assert_lib",
